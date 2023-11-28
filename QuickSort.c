@@ -17,7 +17,7 @@ int Partition(int arr[], int low, int high) {
 	int temp = arr[i + 1];
 	arr[i + 1] = arr[high];
 	arr[high] = temp;
-	aFGTR3E44434@
+
 	return i + 1;
 }
 
